@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <copyright>(c) 2017 Brahm Prakash Mishra.</copyright>
-    <lastBuildDate>Fri, 22 Dec 2017 15:24:20 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2017 21:26:28 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Newblog</title>
-      <link>/2017/12/22/newblog/</link>
-      <pubDate>Fri, 22 Dec 2017 15:24:20 +0530</pubDate>
-      
-      <guid>/2017/12/22/newblog/</guid>
-      <description>Making a good website isn&amp;rsquo;t easy!
-Well it sort of is - if you are using something like wordpress. The issue is that you aren&amp;rsquo;t very much in charge of the design of the site. You do click a few times, and you get a website up and running but you don&amp;rsquo;t learn a whole lot. Additionally, having developer tools for your website is almost indispensible. Version control, my vim setup, benchmarking etc.</description>
-    </item>
     
     <item>
       <title>About Me</title>
@@ -31,15 +21,6 @@ Well it sort of is - if you are using something like wordpress. The issue is tha
       <description>Hey guys! I am Brahm.
 Mechanical engineer by education and roboticist by interest, things I love the most are implementing fresh ideas, solving problems, the open source philosophy and the hacker way of life. I love writing code, particularly for systems that interact with the real world.
 After graduation in 2014, I worked for a year at Thorogood Associates, a Business Intelligence and Analytics company until recently. Subsequently, I worked at Bolt 3D, a successful 3D printing startup based in Chennai.</description>
-    </item>
-    
-    <item>
-      <title>Index</title>
-      <link>/projects/</link>
-      <pubDate>Thu, 21 Dec 2017 21:26:28 +0530</pubDate>
-      
-      <guid>/projects/</guid>
-      <description>Oyiyiyiyi</description>
     </item>
     
     <item>
@@ -68,6 +49,15 @@ To learn more on microcontrollers in general, and the AVR series in particular I
       
       <guid>/projects/test2/sample/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/index/</guid>
+      <description>Interfacing Phillips remote with AVR Atmega 8</description>
     </item>
     
   </channel>
