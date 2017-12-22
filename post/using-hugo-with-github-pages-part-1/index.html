@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Using Hugo with Github Pages: Part 1  &middot; Brainwaves</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="Technical Articles, ">
+
+
+<meta property="og:title" content="Using Hugo with Github Pages: Part 1  &middot; Brainwaves ">
+<meta property="og:site_name" content="Brainwaves"/>
+<meta property="og:url" content="/post/using-hugo-with-github-pages-part-1/" />
+<meta property="og:locale" content="en-EN">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2017-12-23T01:06:37&#43;05:30" />
+<meta property="og:article:modified_time" content="2017-12-23T01:06:37&#43;05:30" />
+
+  
+    
+<meta property="og:article:tag" content="Technical Articles">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Using Hugo with Github Pages: Part 1" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/post/using-hugo-with-github-pages-part-1/" />
+<meta name="twitter:domain" content="/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Using Hugo with Github Pages: Part 1",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2017-12-23",
+    "description": "",
+    "wordCount": 388
+  }
+</script>
+
+
+
+<link rel="canonical" href="/post/using-hugo-with-github-pages-part-1/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link href="/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.31.1" />
+
+  
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight/default.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="/">
+  Brahm&rsquo;s Blog
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  A blog by a guy, figuring out what he is doing and why
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="/">Home</a>
+
+
+  
+<a href="/about">About</a>
+
+<a href="/post/">Blog Posts</a>
+
+<a href="/projects/index/" title="Show list of projects">Projects</a>
+
+<a href="/files/Brahm_CV.pdf">Resume</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+<a id="contact-link-github" class="contact_link" href="https://github.com/brainwave">
+  <span class="fa fa-github-square"></span><span>github</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Using Hugo with Github Pages: Part 1
+</h1>
+
+  <div class="metas">
+<time datetime="2017-12-23">23 Dec, 2017</time>
+
+
+  
+    &middot; by Brahm Prakash Mishra
+  
+  &middot; Read in about 2 min
+  &middot; (388 Words)
+  <br>
+  
+  <a class="label" href="/tags/technical-articles">Technical Articles</a> 
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<p>This post explores how to go about building a website with <a href="gohugo.io">Hugo</a>, a static website generator. I found easy to get confused, even frustrated, while attempting to build my first real website. If you are like me and have never dabbled in web development before, this post is for you.</p>
+
+<h3 id="1-overview-and-workflow">1. Overview and Workflow</h3>
+
+<p>We are going to do the following in order -</p>
+
+<ol>
+<li>Install hugo</li>
+<li>Create an empty website</li>
+<li>Test our setup with local webserver</li>
+<li>Use a hugo theme</li>
+<li>Publish a sample website</li>
+<li>Customize our site</li>
+</ol>
+
+<p>The docs are indeed quite sufficient for [1] through [5]. But [6] was where I faced some real struggle so thats the bit I am going to focus on.</p>
+
+<h3 id="2-installing-hugo">2. Installing Hugo</h3>
+
+<p>Head over to the well illustrated steps on <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a> page. On Arch Linux system, hugo was actually present in the official repos and installing it was as easy as</p>
+
+<pre><code>sudo pacman -S hugo 
+</code></pre>
+
+<h3 id="3-empty-website-creation">3. Empty website creation</h3>
+
+<p>The following commands create a new website, and start a local hugo server to serve it at a specific port on localhost. In my case it was <code>//localhost:1313/</code>.</p>
+
+<pre><code>hugo new site mywebsite
+cd mywebsite
+hugo server -D
+</code></pre>
+
+<p>At this point, you can browse to that IP address on your browser, and find out of hugo is working. It won&rsquo;t display anything but anything other than a &laquo;not found&raquo; page means that hugo is responding to requests.</p>
+
+<p>The generated has most of the folder structure needed for themes to function properly. You have two possible courses of action from this point onward.</p>
+
+<ol>
+<li>Create your own site design from Hugo templates, <em>or</em></li>
+<li>Use an existing theme and tweak it to your needs</li>
+</ol>
+
+<p>Available themes are really great for a wide variety of content and tweaking is actually not as daunting as it looks at first to a newbie. I went with the second option and chose the hyde-y theme. You can go ahead an clone the theme into the <code>themes/</code> directory of your website (<code>~/mywebsite/themes/</code> in my case).</p>
+
+<p>Up until this point, we haven&rsquo;t deviated at all from the official docs. However, after this when following the docs blindly leads to major PITA later on, at least in my experience. Which is why, in Part 2, we are going to follow a different workflow to tweak and publish our website to github pages.</p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="/post/the-way-of-the-blogger/" title="The Way of the Blogger">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+  code with <i class='fa fa-heart'></i>
+
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  &copy; 2017 Brahm Prakash Mishra.
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    
+  </body>
+</html>
+
