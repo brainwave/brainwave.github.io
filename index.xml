@@ -25,20 +25,20 @@ After graduation in 2014, I worked for a year at Thorogood Associates, a Busines
     
     <item>
       <title>Interfacing a Phillips Remote with AVR atmega8</title>
-      <link>/projects/test1/phillips/</link>
+      <link>/projects/2010-2013/phillips/</link>
       <pubDate>Thu, 21 Dec 2017 21:26:28 +0530</pubDate>
       
-      <guid>/projects/test1/phillips/</guid>
+      <guid>/projects/2010-2013/phillips/</guid>
       <description>Ability to control a robot using a remote would be useful. Remotes have the range of roughly a living room. I wanted a robot to just move based on my instructions. This was a very small scale project, as I was just beginning to learn the basics of Robotics.
 To learn more on microcontrollers in general, and the AVR series in particular I worked on a project to interface a Phillips remote with atmega 8.</description>
     </item>
     
     <item>
       <title>Low cost USBasp Programmer</title>
-      <link>/projects/test1/usbasp/</link>
+      <link>/projects/2010-2013/usbasp/</link>
       <pubDate>Thu, 21 Dec 2017 21:26:28 +0530</pubDate>
       
-      <guid>/projects/test1/usbasp/</guid>
+      <guid>/projects/2010-2013/usbasp/</guid>
       <description>To program any microcontroller, one needs a programmer. So my first project was making a programmer using USBasp proeject. It is an open source programmer, based on V-USB which allows Atmel AVR microcontrollers to be interfaced with a USB. Thats one great thing about AVRs. They are very well supported by open source tools. They also have really comprehensive datasheets. They are therefore a great choice for someone who is just starting out.</description>
     </item>
     
@@ -57,7 +57,7 @@ To learn more on microcontrollers in general, and the AVR series in particular I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/index/</guid>
-      <description>Interfacing Phillips remote with AVR Atmega 8</description>
+      <description> Interfacing Phillips remote with AVR Atmega 8 Low cost USBasp Programmer </description>
     </item>
     
   </channel>
