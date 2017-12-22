@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/projects/</loc>
+    <lastmod>2017-12-21T21:26:28+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/test1/phillips/</loc>
     <lastmod>2017-12-21T21:26:28+05:30</lastmod>
   </url>
@@ -23,12 +28,17 @@
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>/projects/test1/</loc>
     <lastmod>2017-12-21T21:26:28+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/projects/test1/</loc>
+    <loc>/projects/test2/</loc>
+    <lastmod>2017-12-21T21:26:28+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/test2/sample/</loc>
     <lastmod>2017-12-21T21:26:28+05:30</lastmod>
   </url>
   
@@ -41,6 +51,12 @@
   <url>
     <loc>/post/</loc>
     <lastmod>2017-12-22T15:24:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2017-12-21T21:26:28+05:30</lastmod>
     <priority>0</priority>
   </url>
   
