@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>100 Days on Brainwaves</title>
+    <link>/tags/100-days/</link>
+    <description>Recent content in 100 Days on Brainwaves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <copyright>(c) 2017 Brahm Prakash Mishra.</copyright>
+    <lastBuildDate>Fri, 22 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/100-days/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>100 Days of Code: Lets build</title>
+      <link>/2017/12/22/100-days-of-code-lets-build/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/22/100-days-of-code-lets-build/</guid>
+      <description>The distinction between A type and B type people is real. I know, because for most of my living memory I have been a B Type person. While it might have its own advantages, the danger of being afflicted with laziness or complacence is all the more. Not to mention - you can easily go down the slippery slope of depression. Which then leads to lack of physical movement ( including not leaving your now shabby room for extended lengths of time ), and that feeds into a vicious cycle of wallowing in eternal misery.</description>
+    </item>
+    
+  </channel>
+</rss>

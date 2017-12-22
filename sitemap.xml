@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/12/22/newblog/</loc>
+    <lastmod>2017-12-22T15:24:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/12/22/100-days-of-code-lets-build/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2017-12-21T21:26:28+05:30</lastmod>
   </url>
@@ -23,13 +33,49 @@
   </url>
   
   <url>
+    <loc>/tags/100-days/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-12-21T21:26:28+05:30</lastmod>
+    <lastmod>2017-12-22T15:24:20+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/challenge/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/one/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/portfolio/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-12-22T15:24:20+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,6 +91,7 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -55,6 +102,7 @@
   
   <url>
     <loc>/topics/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brainwaves</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Brainwaves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <copyright>(c) 2017 Brahm Prakash Mishra.</copyright>
+    <lastBuildDate>Fri, 22 Dec 2017 15:24:20 +0530</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Newblog</title>
+      <link>/2017/12/22/newblog/</link>
+      <pubDate>Fri, 22 Dec 2017 15:24:20 +0530</pubDate>
+      
+      <guid>/2017/12/22/newblog/</guid>
+      <description>Phew! I knew making a good website wasn&amp;rsquo;t easy. But I had 0 clue it was this hard. Tl Dr; Its almost as hard as choosing a background for your phone.
+You do, of course, have a full right to disagree. After all, even if you are a complete n00b like me in web dev, you must have created your first website in 15 minutes on wordpress. But thats the thing - its easy if you are using something like wordpress.</description>
+    </item>
+    
+    <item>
+      <title>100 Days of Code: Lets build</title>
+      <link>/2017/12/22/100-days-of-code-lets-build/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/22/100-days-of-code-lets-build/</guid>
+      <description>The distinction between A type and B type people is real. I know, because for most of my living memory I have been a B Type person. While it might have its own advantages, the danger of being afflicted with laziness or complacence is all the more. Not to mention - you can easily go down the slippery slope of depression. Which then leads to lack of physical movement ( including not leaving your now shabby room for extended lengths of time ), and that feeds into a vicious cycle of wallowing in eternal misery.</description>
+    </item>
+    
+  </channel>
+</rss>
