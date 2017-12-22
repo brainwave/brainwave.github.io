@@ -41,24 +41,5 @@ Mechanical engineer by education and roboticist by interest, things I love the m
 After graduation in 2014, I worked for a year at Thorogood Associates, a Business Intelligence and Analytics company until recently. Subsequently, I worked at Bolt 3D, a successful 3D printing startup based in Chennai.</description>
     </item>
     
-    <item>
-      <title>Interfacing a Phillips Remote with AVR atmega8</title>
-      <link>/projects/2010-2013/phillips/</link>
-      <pubDate>Thu, 21 Dec 2017 21:26:28 +0530</pubDate>
-      
-      <guid>/projects/2010-2013/phillips/</guid>
-      <description>Ability to control a robot using a remote would be useful. Remotes have the range of roughly a living room. I wanted a robot to just move based on my instructions. This was a very small scale project, as I was just beginning to learn the basics of Robotics.
-To learn more on microcontrollers in general, and the AVR series in particular I worked on a project to interface a Phillips remote with atmega 8.</description>
-    </item>
-    
-    <item>
-      <title>Low cost USBasp Programmer</title>
-      <link>/projects/2010-2013/usbasp/</link>
-      <pubDate>Thu, 21 Dec 2017 21:26:28 +0530</pubDate>
-      
-      <guid>/projects/2010-2013/usbasp/</guid>
-      <description>To program any microcontroller, one needs a programmer. So my first project was making a programmer using USBasp proeject. It is an open source programmer, based on V-USB which allows Atmel AVR microcontrollers to be interfaced with a USB. Thats one great thing about AVRs. They are very well supported by open source tools. They also have really comprehensive datasheets. They are therefore a great choice for someone who is just starting out.</description>
-    </item>
-    
   </channel>
 </rss>
