@@ -55,7 +55,7 @@
     },
     "datePublished": "2017-12-23",
     "description": "",
-    "wordCount": 388
+    "wordCount": 822
   }
 </script>
 
@@ -173,8 +173,8 @@
   
     &middot; by Brahm Prakash Mishra
   
-  &middot; Read in about 2 min
-  &middot; (388 Words)
+  &middot; Read in about 4 min
+  &middot; (822 Words)
   <br>
   
   <a class="label" href="/tags/technical-articles">Technical Articles</a> 
@@ -212,7 +212,7 @@
 <pre><code>sudo pacman -S hugo 
 </code></pre>
 
-<h3 id="3-empty-website-creation">3. Empty website creation</h3>
+<h3 id="3-new-website-creation">3. New website creation</h3>
 
 <p>The following commands create a new website, and start a local hugo server to serve it at a specific port on localhost. In my case it was <code>//localhost:1313/</code>.</p>
 
@@ -230,9 +230,36 @@ hugo server -D
 <li>Use an existing theme and tweak it to your needs</li>
 </ol>
 
-<p>Available themes are really great for a wide variety of content and tweaking is actually not as daunting as it looks at first to a newbie. I went with the second option and chose the hyde-y theme. You can go ahead an clone the theme into the <code>themes/</code> directory of your website (<code>~/mywebsite/themes/</code> in my case).</p>
+<p>Available themes are really great for a wide variety of content and tweaking is actually not as daunting as it looks at first to a newbie. I went with the second option and chose the hyde-y theme. Clone any theme from the hugo <a href="https://themes.gohugo.io">website</a>  into the <code>themes/</code> directory of your website (<code>~/mywebsite/themes/</code> in my case).</p>
 
-<p>Up until this point, we haven&rsquo;t deviated at all from the official docs. However, after this when following the docs blindly leads to major PITA later on, at least in my experience. Which is why, in Part 2, we are going to follow a different workflow to tweak and publish our website to github pages.</p>
+<pre><code>cd themes/
+git clone https://github.com/enten/hyde-y
+</code></pre>
+
+<p>Now that we have the theme, we need to activate it by creating adding this to the top of the config.toml</p>
+
+<pre><code>publishDir = &quot;public&quot;
+</code></pre>
+
+<p>Additionally, we need to make the config file such that we can easily publish it on github. I added an option to use a public/ directory for publishing my website. Additionally, hugo websites do not render correctly on github pages unless the baseurl is set to root (i.e, setting it to username.github.io doesn&rsquo;t work very well).  So we need to set the baseurl to root.</p>
+
+<pre><code>baseurl = &quot;/&quot;
+publishDir = &quot;public&quot;
+</code></pre>
+
+<p>Subsequently, we want to run the actual command to publish our website into the public folder.</p>
+
+<pre><code>hugo
+</code></pre>
+
+<p>And done! We have a functional website, published from content we tested locally. All that remains now is to publish on github, to get the website up and running. Subsequently, we might want to explore ways of tweaking the look and behavior of our website. Do not add any folder to version control yet. The reason for this is that any theme you cloned from a git repo would have come with its own version control files inside themes/.git. So, to add this to your repo, you need to use git submodules. However, in my testing, I found it quite cumborsome to use. Primarily because, if I am creating a number of websites that use the same theme, I want to sync all my changes to theme elements across all. This means, I need to make changes directly to content files of my theme. I can&rsquo;t just make local changes per website in the /layouts folder as is the suggested method. To actually use the submodule method while making changes to the theme folder, I need to fork the theme, clone &lsquo;that&rsquo;, then add submodule and then follow the submodule workflow. Its a lot of hassle for something very simple, which is why  I went with a workaround instead.</p>
+
+<p>The quick fix that I found was to delete the .git folder inside the downloaded theme. This makes git treat themes just like any other file, and you do not have to mess with git submodules. You can make changes either directly inside the theme folder, or add your customizations to /layouts foldre.</p>
+
+<p>However, before doing any of this, make sure that the license of the theme you are using permits you to do so. If not, you might be in violation of license terms.
+Up until this point, we haven&rsquo;t deviated at all from the official docs. However, after this when following the docs blindly leads to major PITA later on, at least in my experience. Which is why, in Part 2, we are going to follow a different workflow to tweak and publish our website to github pages.</p>
+
+<p>In the next post, I&rsquo;ll be adding version control to my website, and establishing a workflow to manage and publish it on github pages.</p>
 
 </div>
 
@@ -249,6 +276,10 @@ hugo server -D
     </a>
     
 
+    
+    <a class="next" href="/post/using-hugo-with-github-pages-part-2/" title="Using Hugo with Github Pages: Part 2">
+      Next
+    </a>
     
 
   

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/using-hugo-with-github-pages-part-2/</loc>
+    <lastmod>2017-12-23T19:08:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/using-hugo-with-github-pages-part-1/</loc>
     <lastmod>2017-12-23T01:06:37+05:30</lastmod>
   </url>
@@ -44,7 +49,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-12-23T01:06:37+05:30</lastmod>
+    <lastmod>2017-12-23T19:08:00+05:30</lastmod>
   </url>
   
   <url>
@@ -82,7 +87,7 @@
   
   <url>
     <loc>/tags/technical-articles/</loc>
-    <lastmod>2017-12-23T01:06:37+05:30</lastmod>
+    <lastmod>2017-12-23T19:08:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
